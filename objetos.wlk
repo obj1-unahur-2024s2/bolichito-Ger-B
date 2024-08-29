@@ -1,9 +1,15 @@
-object pepita {
-  var energy = 100
+object remera {
+  
+}
 
-  method energy() = energy
+object pelota {
+  
+}
 
-  method fly(minutes) {
-    energy = energy - minutes * 3
-  }
+object biblioteca {
+  
+}
+
+object munieco {
+  
 }
