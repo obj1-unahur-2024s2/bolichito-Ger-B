@@ -1,16 +1,25 @@
 object rosa {
-method teGusta(objeto) = objeto.peso() <= 2000
+method leGusta(objeto){
+    return objeto.peso() <= 2000
+    }
+
 }
 
 object estefania {
-    method teGusta(objeto) = objeto.esColorFuerte()
+    method leGusta(objeto){
+        return objeto.color().esFuerte()
+    }
 }
 
 object luisa {
-    method teGusta(objeto) = objeto.esBrillante()
+    method leGusta(objeto){
+        return objeto.material().esBrillante()
+    }
 }
 
 object juan {
-    method name(objeto) = not objeto.esColorFuerte() or 
-    ( 1200 <= objeto.peso() <= 1800) 
+    method leGusta(objeto) {
+        return not objeto.color().esColorFuerte() or 
+        ( 1200 <= objeto.peso() <= 1800) 
+    }
 }
